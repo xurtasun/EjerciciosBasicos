@@ -32,7 +32,7 @@ public class ejercicio5
          
          try 
          	{
-        	 fichero2 = new File("registro.txt");
+        	fichero2 = new File("registro.txt");
         	 	if(!fichero2.exists())
         	 		{
         	 			fichero2.createNewFile();
