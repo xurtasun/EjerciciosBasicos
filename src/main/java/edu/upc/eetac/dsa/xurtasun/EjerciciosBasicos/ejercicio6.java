@@ -11,10 +11,7 @@ public class ejercicio6
     	File fichero1 = null;
         Reader lectura1 = null;
         BufferedReader br1 = null;
-        int cont1 = 0;
-        int cont2 = 0;
-        int i = 0 ;
-        int j = 0;
+
         String linea;
         
         String file1 = "registro.txt";
@@ -33,17 +30,28 @@ public class ejercicio6
         try
 	         {
        	  br1 = new BufferedReader (lectura1);
+       	  
        	  linea = br1.readLine(); 
        	  while (linea != null)
        	  {
-	       		  String [] resultado = linea.split(" ");
-	       		  System.out.println(resultado[i]);
-	       		  //cont1 = Integer.parseInt(resultado[4]);
-	       		  i++;
-       		  
+	       	  String [] resultado = linea.split(" ");
+	       	  
+
+	       	  for (int i = 0; i<resultado.length ;i++)
+	       	  {
+	       		  
+		 		  System.out.println("iii "+resultado[i]);
+		 		  
+
+	       	  }
+	       	linea = br1.readLine(); 
+	       	  
        	  }
        	  
-       	  System.out.println(cont1);
+			 System.out.println("hola");
+
+       	  
+       	  
        	  
        	 
 	         }
