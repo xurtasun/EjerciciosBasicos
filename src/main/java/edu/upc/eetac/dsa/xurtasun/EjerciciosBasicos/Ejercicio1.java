@@ -1,7 +1,7 @@
 package edu.upc.eetac.dsa.xurtasun.EjerciciosBasicos;
 import java.io.*;
 
-public class App 
+public class Ejercicio1 
 {
 	
     public static void main( String[] args ) throws BigNumberException
